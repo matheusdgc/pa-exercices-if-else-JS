@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 07</title>
+    </head>
+    <body>
+        <script>
+            let boolean1;
+            let boolean2;
+
+            boolean1 = prompt("Digite o primeiro valor logico (verdadeiro ou falso) desejado: ");
+            boolean2 = prompt("Digite o segundo valor logico (verdadeiro ou falso) desejado: ");
+
+            if (boolean1 == "verdadeiro" && boolean1 == boolean2) {
+                alert("O valor logico e: " + boolean1);
+            } else {
+                if (boolean1 == "falso" && boolean1 == boolean2) {
+                    alert("O valor logico e: " + boolean1);
+                } else {
+                    if (boolean1 == "verdadeiro" && boolean1 != boolean2 ||
+                        boolean1 == "falso" && boolean1 != boolean2) {
+                            alert("Os valores sao diferentes")
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
